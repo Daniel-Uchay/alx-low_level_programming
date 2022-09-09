@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main: Entry point
- * Description: print of base 10
+ * Main: Entry point
+ * Description: print of base ten
  * Return: 0
  */
 int main(void)
