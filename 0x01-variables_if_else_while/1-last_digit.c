@@ -6,7 +6,7 @@
  * main - prints the last digit of the random
  * number using % operator to determine the
  * last digit
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
