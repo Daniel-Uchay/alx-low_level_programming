@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main: Entry point
+ * main - Entry point
  * Description: print of base ten
  * Return: 0
  */
