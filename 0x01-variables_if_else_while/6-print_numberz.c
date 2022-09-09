@@ -1,17 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- * Description: base 10 starting
- * from 0
- * Return: o
+ * main - prints all single digit numbers
+ * of base 10 starting from 0,
+ * folccess)
+ * Return: 0
  */
 int main(void)
 {
-	int i; 
+	int n;
 
-	for (i = 0; x <= 9; x++)
+	for (n = 8; n < 18; n++)
 	{
-		putchar((x % 10) + '0');
+		putchar(n);
 	}
 	putchar('\n');
 	return (0);
