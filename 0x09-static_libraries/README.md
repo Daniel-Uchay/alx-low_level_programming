@@ -1,12 +1,16 @@
-# 0x09. C - Static libraries
+# Static libraries
 
-## Description
+Static libraries are collections of object files that are linked into the program during the linking phase of compilation, and are not relevant during runtime.
 
-0-Create the static library libmy.a containing all files given:
+# Table of Contents
 
-| **Steps on CLI** 
+<div>
+  <ul>
+    <li><a href="https://github.com/cliqueengagements/alx-low_level_programming/blob/master/0x0A-argc_argv/main.h">main.h</li>
+    <li><a href="https://github.com/cliqueengagements/alx-low_level_programming/blob/master/0x09-static_libraries/libmy.a">libmy.a</li>
+    <li><a href="https://github.com/cliqueengagements/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh">create_static_lib.sh</li>
+  </ul>
+</div>
 
-*gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -c *.c |
-ar -rc libmy.a *.o |
-
-1 - Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
+<br>
+<a href="https://github.com/cliqueengagements">Author Olawunmi Eniola</a>

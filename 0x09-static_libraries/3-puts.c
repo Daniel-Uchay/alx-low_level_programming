@@ -1,14 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-* _puts - Print a string folllowed by a new line.
-*
-* @str: String to be printed
-*
-* Return: Nothing
+* _puts - Prints a string, followed by a new line, to stdout
+* @str: The string
 */
-
 void _puts(char *str)
 {
-	printf("%s\n", str);
+	int i = 0;
+
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }

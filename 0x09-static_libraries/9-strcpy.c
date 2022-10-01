@@ -1,25 +1,24 @@
 #include "main.h"
 
 /**
-* _strcpy - Copy strings from source arr to destination arr
+* _strcpy - Copies the string pointed to by src,
+* including the terminating null byte (\0),
+* to the buffer pointed to by dest
+* @dest: The destination
+* @src: The source
 *
-* @dest: destination array
-* @src: source array
-*
-* Return: Pointer to destination array
+* Return: The pointer to dest
 */
-
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
+	int len = 0;
 
-	while (src[i] != '\0')
+	while (src[len])
 	{
-		*(dest + i) = src[i];
-		i++;
+		dest[len] = src[len];
+		len++;
 	}
-
-	*(dest + i) = '\0';
+	dest[len] = '\0';
 
 	return (dest);
 }
