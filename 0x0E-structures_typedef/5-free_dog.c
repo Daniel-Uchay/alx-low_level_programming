@@ -1,13 +1,17 @@
+#include <stdlib.h>
 #include "dog.h"
+
 /**
- * free_dog - frees the allocated memory by malloc
- * @d: holds adress to free
- * Return: nothing
+ * free_dog - frees memory allocated for a struct dog
+ * @d: struct dog to free
  */
 void free_dog(dog_t *d)
 {
-	if (d == NULL)
-		return;
-	free(d);
+	if (d)
+	{
+		free(d->name);
+		free(d->owner);
+		free(d);
+	}
 }
 
